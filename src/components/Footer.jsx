@@ -1,5 +1,5 @@
-import {FaInstagram, FaFacebook, FaGoogle, FaTripadvisor} from 'react-icons/fa';
-// import trip from '../assets/trip.png';
+import { FaInstagram, FaFacebook, FaGoogle, FaTripadvisor } from "react-icons/fa";
+
 export default function Footer(){
     return(
         <div className="bg-black text-white text-center h-auto p-6 mt-10">
