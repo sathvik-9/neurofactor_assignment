@@ -7,4 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  build: {
+    external: ['react-icons/fa'],
+  }
 })

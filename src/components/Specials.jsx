@@ -1,4 +1,4 @@
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function Specials() {
   const specials=[
