@@ -4,7 +4,7 @@ export default function Specials() {
   const specials=[
     {
       name: 'Classic Ribeye Steak',
-      image: '/src/assets/steak.png',
+      image: '/assets/steak.png',
       price: '€30',
     }
   ];

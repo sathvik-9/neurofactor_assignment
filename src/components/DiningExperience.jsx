@@ -4,17 +4,17 @@ export default function DiningExperiencce(){
         {
             title: 'Food',
             text: 'Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our ',
-            img: '/src/assets/food.png'
+            img: '/assets/food.png'
         },
         {
             title: 'Drinks',
             text: 'Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our ',
-            img: '/src/assets/drinks.png'
+            img: '/assets/drinks.png'
         },
         {
             title: 'Atmosphere',
             text: 'Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our ',
-            img: '/src/assets/atmosphere.png'
+            img: '/assets/atmosphere.png'
         }
     ]
 

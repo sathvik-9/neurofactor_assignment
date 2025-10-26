@@ -1,10 +1,10 @@
 export default function Highlights(){
 
     const items = [
-        {name: 'Adana Kebab', img: '/src/assets/adana_kabab.png', price: 120},
-        {name: 'Meze Platter', img: '/src/assets/meze_platter.png', price: 120},
-        {name: 'Baklava', img: '/src/assets/baklava.png', price: 120},
-        {name: 'Kebab Platter', img: '/src/assets/kebab_platter.png', price: 120},
+        {name: 'Adana Kebab', img: '/assets/adana_kabab.png', price: 120},
+        {name: 'Meze Platter', img: '/assets/meze_platter.png', price: 120},
+        {name: 'Baklava', img: '/assets/baklava.png', price: 120},
+        {name: 'Kebab Platter', img: '/assets/kebab_platter.png', price: 120},
     ]
 
     return (

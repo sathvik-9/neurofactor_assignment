@@ -13,7 +13,7 @@ function Hero() {
         muted
         className="absolute inset-0 h-full w-full object-cover"
       >
-        <source src={"/src/assets/hero.mp4"} type="video/mp4" />
+        <source src={"/assets/hero.mp4"} type="video/mp4" />
         {/* Or src="/myVideo.mp4" if in public */}
         Your browser does not support the video tag.
       </video>

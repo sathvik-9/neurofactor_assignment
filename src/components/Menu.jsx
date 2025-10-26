@@ -2,9 +2,9 @@
 // import burger from '/assets/burger.png'
 
 const items =[
-    {name: 'Italian dishes', img: '/src/assets/italian.jpg'},
-    {name: 'Pastry', img: '/src/assets/pastry.png'},
-    {name: 'Coffee', img: '/src/assets/coffee.png'},
+    {name: 'Italian dishes', img: '/assets/italian.jpg'},
+    {name: 'Pastry', img: '/assets/pastry.png'},
+    {name: 'Coffee', img: '/assets/coffee.png'},
 ];
 
 export default function Menu() {

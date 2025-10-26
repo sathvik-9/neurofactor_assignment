@@ -18,7 +18,7 @@ export default function Navbar() {
         </ul>
 
         {/* Logo */}
-        <img src="/src/assets/logo.png" alt="Cafe Italia Logo" className="h-10" />
+        <img src="/assets/logo.png" alt="Cafe Italia Logo" className="h-10" />
         
         <button className="bg-[#ccad64] h-10 w-auto px-3 py-2 flex justify-center gap-3">BOOK TABLE
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="mt-2 size-3">

@@ -3,14 +3,14 @@ import { FaInstagram } from "react-icons/fa";
 export default function Gallery(){
 
     const photos =[
-        '/src/assets/gallery_1.png',
-        '/src/assets/gallery_2.png',
-        '/src/assets/gallery_3.png',
-        '/src/assets/gallery_4.png',
-        '/src/assets/gallery_5.png',
-        '/src/assets/gallery_6.png',
-        '/src/assets/gallery_7.png',
-        '/src/assets/gallery_8.png',
+        '/assets/gallery_1.png',
+        '/assets/gallery_2.png',
+        '/assets/gallery_3.png',
+        '/assets/gallery_4.png',
+        '/assets/gallery_5.png',
+        '/assets/gallery_6.png',
+        '/assets/gallery_7.png',
+        '/assets/gallery_8.png',
     ]
 
     return (

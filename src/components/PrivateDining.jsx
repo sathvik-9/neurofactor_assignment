@@ -3,7 +3,7 @@ export default function PrivateDining(){
       <div className="w-full flex flex-col gap-4 bg-black text-white min-h-screen">
         <div className="relative group bg-grey-800">
           <img
-            src="src/assets/private_dining.png"
+            src="/assets/private_dining.png"
             alt="Private & Group Dining"
             className="w-full h-130 sm:h-120 object-cover"
           />

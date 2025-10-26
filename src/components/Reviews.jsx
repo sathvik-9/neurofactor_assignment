@@ -7,19 +7,19 @@ export default function Reviews() {
             name: 'Anna Mathew',
             time: 1,
             text: 'Amazing food and great ambiance! The staff were friendly and attentive. Highly recommend the lamb kebabs.',
-            img: '/src/assets/anna.png',
+            img: '/assets/anna.png',
         },
         {
             name: 'Gerrin Tom',
             time: 1,
             text: 'Amazing food and great ambiance! The staff were friendly and attentive. Highly recommend the lamb kebabs.',
-            img: '/src/assets/tom.png',
+            img: '/assets/tom.png',
         },
         {
             name: 'Mery Elza',
             time: 1,
             text: 'Amazing food and great ambiance! The staff were friendly and attentive. Highly recommend the lamb kebabs.',
-            img: '/src/assets/mary.png',
+            img: '/assets/mary.png',
         }
     ]
 
