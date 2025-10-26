@@ -5,6 +5,9 @@ import Hero from './components/hero.jsx';
 import OfferSection from './components/OfferSection.jsx';
 import DiningExperience from './components/DiningExperience.jsx';
 import Specials from './components/Specials.jsx';
+import Highlights from './components/Highlights.jsx';
+import PrivateDining from './components/PrivateDining.jsx';
+import Reviews from './components/Reviews.jsx';
 
 function App() {
 
@@ -16,6 +19,9 @@ function App() {
       <OfferSection />
       <DiningExperience />
       <Specials />
+      <Highlights />
+      <PrivateDining />
+      <Reviews />
     </div>
   )
 }

@@ -50,7 +50,7 @@ function Hero() {
         </button>
       </div>
 
-      <div className=" items-center absolute justify-right-end h-27 w-25 mt-107 rounded-full mx-4 p-2 bg-black text-white hover:bg-gray-800 cursor-pointer bottom-0 right-0 mb-10">
+      {/*<div className=" items-center absolute justify-right-end h-27 w-25 mt-107 rounded-full mx-4 p-2 bg-black text-white hover:bg-gray-800 cursor-pointer bottom-0 right-0 mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -67,7 +67,7 @@ function Hero() {
         </svg>
         <p className=" mx-auto flex justify-center mb">VIEW</p>
         <p className=" mx-auto flex justify-center mb-1">MENU</p>
-      </div>
+      </div> */}
     </section>
   );
 }
