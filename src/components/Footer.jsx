@@ -3,7 +3,7 @@ import { FaInstagram, FaFacebook, FaGoogle, FaTripadvisor } from "react-icons/fa
 export default function Footer(){
     return(
         <div className="bg-black text-white text-center h-auto p-6 mt-10">
-            <img src="/src/assets/logo.png" alt="Restaurant Logo" className="mx-auto mb-4 w-32 mt-10 mb-20"/>
+            <img src="/assets/logo.png" alt="Restaurant Logo" className="mx-auto mb-4 w-32 mt-10 mb-20"/>
             <div className="flex justify-center space-x-8 text-sm font-medium tracking-widest uppercase mb-10">
                 <a href="#home" className="hover:text-gray-400">Home</a>
                 <a href="#menu" className="hover:text-gray-400">Menu</a>
