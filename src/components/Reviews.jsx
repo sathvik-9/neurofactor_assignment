@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 export default function Reviews() {
@@ -25,7 +24,7 @@ export default function Reviews() {
     ]
 
     return (
-      <div className="bg-black text-white min-h-screen flex flex-col items-center">
+      <div className="bg-black text-white min-h-screen flex flex-col items-center sm:mt-2 lg:mt-10 ">
         <div className="text-center mb-10">
           <p className="text-xs uppercase tracking-[0.2em] text-white">
             reviews
@@ -54,9 +53,9 @@ export default function Reviews() {
               </div>
             </div>
 
-            <div className="flex text-yellow-400 mt-2">
+            <div className="flex text-[#bc995d] mt-2 gap-2">
               {[...Array(5)].map((_, i) => (
-                <FaStar key={i} />
+                <FaStar key={i} /> 
               ))}
             </div>
 
@@ -68,10 +67,10 @@ export default function Reviews() {
       </div>
 
       <div className="flex gap-4">
-        <button className="w-10 h-10 flex items-center justify-center text-[#bc995d] border border-[#bc995d] rounded-full hover:bg-[#bc995d] hover:text-black transition">
+        <button className="w-10 h-10 flex items-center justify-center text-[#bc995d] border border-[#bc995d] rounded-full hover:bg-[#bc995d] hover:text-black hover:cursor-pointer transition">
           <FaArrowLeft />
         </button>
-        <button className="w-10 h-10 flex items-center justify-center text-[#bc995d] border border-[#bc995d] rounded-full hover:bg-[#bc995d] hover:text-black transition">
+        <button className="w-10 h-10 flex items-center justify-center text-[#bc995d] border border-[#bc995d] rounded-full hover:bg-[#bc995d] hover:text-black hover:cursor-pointer transition">
           <FaArrowRight />
         </button>
       </div>
