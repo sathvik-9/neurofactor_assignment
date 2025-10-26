@@ -20,7 +20,7 @@ function Hero() {
       {/* Overlay */}
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.5),rgba(0,0,0,0.8))]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.2),rgba(0,0,0,0.5))]" />
 
       {/* Text */}
       <div className="relative z-10 text-center text-white px-6">
@@ -50,7 +50,7 @@ function Hero() {
         </button>
       </div>
 
-      <div className=" items-center fixed justify-right-end h-27 w-25 mt-107 rounded-full mx-4 p-2 bg-black text-white hover:bg-gray-800 cursor-pointer bottom-0 right-0 mb-10">
+      <div className=" items-center absolute justify-right-end h-27 w-25 mt-107 rounded-full mx-4 p-2 bg-black text-white hover:bg-gray-800 cursor-pointer bottom-0 right-0 mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
