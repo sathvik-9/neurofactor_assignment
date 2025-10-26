@@ -1,16 +1,106 @@
-# React + Vite
+# 🧠 Neurofactor Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React + Tailwind CSS project that displays a photo grid gallery.  
+Each image maintains a perfect square aspect ratio and adapts beautifully to any screen size.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+> [Click here to view the deployed version](https://your-live-demo-link.com)  
+*(Add your Netlify / Vercel / GitHub Pages link once deployed)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React.js** – UI library
+- 💨 **Tailwind CSS** – Utility-first CSS framework
+- 🔧 **Vite / Create React App** – Build tool (update depending on your setup)
+- 🖼️ **Responsive Grid Layout** – Built using CSS grid and `aspect-square`
+
+---
+
+## 🛠️ Installation & Setup
+
+Follow these steps to run the project locally 👇
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sathvik-9/neurofactor-assignment.git
+2️⃣ Navigate into the Project Folder
+bash
+Copy code
+cd neurofactor-assignment
+3️⃣ Install Dependencies
+If you’re using npm:
+
+bash
+Copy code
+npm install
+Or if you prefer yarn:
+
+bash
+Copy code
+yarn install
+4️⃣ Start the Development Server
+bash
+Copy code
+npm run dev
+(or yarn dev)
+
+Then open your browser and visit:
+👉 http://localhost:5173/ (for Vite)
+👉 http://localhost:3000/ (for Create React App)
+
+🖼️ Folder Structure
+php
+Copy code
+neurofactor-assignment/
+│
+├── src/
+│   ├── components/
+│   │   └── PhotoGrid.jsx       # Main photo grid component
+│   ├── App.jsx                 # Root component
+│   ├── main.jsx                # Entry point
+│   └── index.css               # Tailwind imports
+│
+├── public/                     # Static assets
+├── package.json
+├── tailwind.config.js
+└── README.md
+🎨 Features
+✅ Responsive layout – adapts to all screen sizes
+✅ Perfect square image grid using aspect-square
+✅ Clean and modern Tailwind design
+✅ Easy to modify and extend
+
+📦 Build for Production
+To create a production-ready build:
+
+bash
+Copy code
+npm run build
+Then deploy the contents of the dist/ (or build/) folder to your hosting service.
+
+🤝 Contributing
+If you’d like to contribute:
+
+Fork this repo
+
+Create a new branch (git checkout -b feature-branch)
+
+Make your changes
+
+Commit (git commit -m "Add new feature")
+
+Push (git push origin feature-branch)
+
+Open a Pull Request 🎉
+
+🧑‍💻 Author
+Sathvik
+📍 GitHub: @sathvik-9
+
+🪪 License
+This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
