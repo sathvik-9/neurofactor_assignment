@@ -1,13 +1,12 @@
 # 🧠 Neurofactor Assignment
 
-A responsive React + Tailwind CSS project that displays a photo grid gallery.  
-Each image maintains a perfect square aspect ratio and adapts beautifully to any screen size.
+A responsive React + Tailwind CSS project that displays a webpage for **Cafe Italia** business.  
 
 ---
 
 ## 🚀 Live Demo
 
-> [Click here to view the deployed version]((https://friendly-chebakia-6823bf.netlify.app/))  
+> [Click here to view the deployed version][((https://friendly-chebakia-6823bf.netlify.app/))]
 
 ---
 
@@ -59,7 +58,7 @@ or
 yarn dev
 ```
 
-###Then open your browser and visit:
+Then open your browser and visit:
 - http://localhost:5173/ (for Vite)
 - http://localhost:3000/ (for Create React App)
 
@@ -81,14 +80,14 @@ neurofactor-assignment/
 └── README.md
 ```
 
-###🎨 Features
+### 🎨 Features
 
 - Responsive layout – adapts to all screen sizes
 - Perfect square image grid using aspect-square
 - Clean and modern Tailwind design
 - Easy to modify and extend
 
-###📦 Build for Production
+### 📦 Build for Production
 
 To create a production-ready build:
 
@@ -96,9 +95,7 @@ To create a production-ready build:
 npm run build
 ```
 
-Then deploy the contents of the dist/ (or build/) folder to your hosting service.
-
-###🤝 Contributing
+### 🤝 Contributing
 If you’d like to contribute:
 
 1. **Fork this repo**
@@ -113,9 +110,9 @@ If you’d like to contribute:
 
 6. **Open a Pull Request.**
 
-###🧑‍💻 Author
+### 🧑‍💻 Author
 Sathvik
 📍 GitHub: @sathvik-9
 
-###🪪 License
+### 🪪 License
 This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
