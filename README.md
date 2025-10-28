@@ -1,14 +1,12 @@
 # 🧠 Neurofactor Assignment
 
-A responsive React + Tailwind CSS project that displays a photo grid gallery.  
-Each image maintains a perfect square aspect ratio and adapts beautifully to any screen size.
+A responsive React + Tailwind CSS project that displays a webpage for **Cafe Italia** business.  
 
 ---
 
 ## 🚀 Live Demo
 
-> [Click here to view the deployed version](https://your-live-demo-link.com)  
-*(Add your Netlify / Vercel / GitHub Pages link once deployed)*
+> [Click here to view the deployed version][((https://friendly-chebakia-6823bf.netlify.app/))]
 
 ---
 
@@ -17,45 +15,56 @@ Each image maintains a perfect square aspect ratio and adapts beautifully to any
 - ⚛️ **React.js** – UI library
 - 💨 **Tailwind CSS** – Utility-first CSS framework
 - 🔧 **Vite / Create React App** – Build tool (update depending on your setup)
-- 🖼️ **Responsive Grid Layout** – Built using CSS grid and `aspect-square`
 
 ---
 
 ## 🛠️ Installation & Setup
 
-Follow these steps to run the project locally 👇
+Follow these steps to run the project locally 
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/sathvik-9/neurofactor-assignment.git
-2️⃣ Navigate into the Project Folder
-bash
-Copy code
+```
+
+### 2️⃣ Navigate into the Project Folder
+
+```bash
 cd neurofactor-assignment
-3️⃣ Install Dependencies
+```
+
+### 3️⃣ Install Dependencies
 If you’re using npm:
 
-bash
-Copy code
+```bash
 npm install
+```
+
 Or if you prefer yarn:
 
-bash
-Copy code
+```bash
 yarn install
-4️⃣ Start the Development Server
-bash
-Copy code
+```
+
+### 4️⃣ Start the Development Server
+
+```bash
 npm run dev
-(or yarn dev)
+```
+or
+
+```bash
+yarn dev
+```
 
 Then open your browser and visit:
-👉 http://localhost:5173/ (for Vite)
-👉 http://localhost:3000/ (for Create React App)
+- http://localhost:5173/ (for Vite)
+- http://localhost:3000/ (for Create React App)
 
-🖼️ Folder Structure
-php
-Copy code
+### 🖼️ Folder Structure
+
+```
 neurofactor-assignment/
 │
 ├── src/
@@ -69,38 +78,41 @@ neurofactor-assignment/
 ├── package.json
 ├── tailwind.config.js
 └── README.md
-🎨 Features
-✅ Responsive layout – adapts to all screen sizes
-✅ Perfect square image grid using aspect-square
-✅ Clean and modern Tailwind design
-✅ Easy to modify and extend
+```
 
-📦 Build for Production
+### 🎨 Features
+
+- Responsive layout – adapts to all screen sizes
+- Perfect square image grid using aspect-square
+- Clean and modern Tailwind design
+- Easy to modify and extend
+
+### 📦 Build for Production
+
 To create a production-ready build:
 
-bash
-Copy code
+```bash
 npm run build
-Then deploy the contents of the dist/ (or build/) folder to your hosting service.
+```
 
-🤝 Contributing
+### 🤝 Contributing
 If you’d like to contribute:
 
-Fork this repo
+1. **Fork this repo**
 
-Create a new branch (git checkout -b feature-branch)
+2. **Create a new branch (git checkout -b feature-branch)**
 
-Make your changes
+3. **Make your changes**
 
-Commit (git commit -m "Add new feature")
+4. **Commit (git commit -m "Add new feature")**
 
-Push (git push origin feature-branch)
+5. **Push (git push origin feature-branch)**
 
-Open a Pull Request 🎉
+6. **Open a Pull Request.**
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 Sathvik
 📍 GitHub: @sathvik-9
 
-🪪 License
+### 🪪 License
 This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
