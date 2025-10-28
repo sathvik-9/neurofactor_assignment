@@ -24,10 +24,11 @@ export default function Gallery(){
               follow us
             </h1>
           </div>
-          <button className="flex w-auto mt-4 px-8 py-3 bg-[#111] uppercase text-white font-bold transition hover:cursor-pointer">
+          <button className="flex w-auto mt-4 px-8 py-3 bg-[#111] uppercase text-white font-bold transition hover:cursor-pointer hover:bg-zinc-900 hover:transition-all hover:duration-200">
             <FaInstagram className="text-[#bc9995d] mt-1 mr-5" />
-            check out our instagram
-            <a href="https://www.instagram.com/"></a>
+            <a href="https://www.instagram.com/" target="_blank">
+              check out our instagram
+            </a>
           </button>
         </div>
 
