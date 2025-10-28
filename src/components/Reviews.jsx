@@ -24,7 +24,7 @@ export default function Reviews() {
     ]
 
     return (
-      <div className="bg-black text-white min-h-screen flex flex-col items-center sm:mt-2 lg:mt-10 ">
+      <div className="bg-black text-white h-auto flex flex-col items-center mt-10 sm:mt-2 lg:mt-10 mb-20 ">
         <div className="text-center mb-10">
           <p className="text-xs uppercase tracking-[0.2em] text-white">
             reviews

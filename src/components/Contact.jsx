@@ -1,6 +1,6 @@
 export default function Contact(){
     return (
-      <div id="contact" className="mt-15 mb-10 bg-[url('/src/assets/contact_bg.png')] text-white min-h-screen flex flex-col">
+      <div id="contact" className="mt-15 mb-10 bg-[url('/src/assets/contact_bg.png')] text-white h-200 flex flex-col">
         <div className="text-center mb-10 mt-20">
           <p className="text-xs uppercase tracking-[0.2em] text-white">
             connect with us

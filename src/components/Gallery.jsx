@@ -14,7 +14,7 @@ export default function Gallery(){
     ]
 
     return (
-      <div className="bg-black text-white min-h-screen flex flex-col">
+      <div className="bg-black text-white h-auto mb-20 flex flex-col">
         <div className=" flex justify-around items-center text-end mb-10">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-white">

@@ -1,5 +1,4 @@
-// src/components/Hero.jsx
-//import myVideo from '/src/assets/hero.mp4';
+
 function Hero() {
   return (
     <section
@@ -14,15 +13,12 @@ function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
       >
         <source src={"/assets/hero.mp4"} type="video/mp4" />
-        {/* Or src="/myVideo.mp4" if in public */}
         Your browser does not support the video tag.
       </video>
-      {/* Overlay */}
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.2),rgba(0,0,0,0.5))]" />
 
-      {/* Text */}
       <div className="relative z-10 text-center text-white px-6">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to</h1>
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Cafe Italia</h1>
@@ -49,25 +45,6 @@ function Hero() {
           </a>
         </button>
       </div>
-
-      {/*<div className=" items-center absolute justify-right-end h-27 w-25 mt-107 rounded-full mx-4 p-2 bg-black text-white hover:bg-gray-800 cursor-pointer bottom-0 right-0 mb-10">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="size-5 mx-auto flex justify-center mb-1 mt-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
-          />
-        </svg>
-        <p className=" mx-auto flex justify-center mb">VIEW</p>
-        <p className=" mx-auto flex justify-center mb-1">MENU</p>
-      </div> */}
     </section>
   );
 }

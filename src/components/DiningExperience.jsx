@@ -19,7 +19,7 @@ export default function DiningExperiencce(){
     ]
 
     return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center py-16 px-4">
+    <div className="bg-black text-white h-auto flex flex-col items-center py-16 px-4">
       {/* Title Section */}
       <div className="text-center mb-10">
         <p className="text-xs uppercase tracking-[0.2em] text-white">We Offer</p>

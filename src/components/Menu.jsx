@@ -25,6 +25,7 @@ export default function Menu() {
                         <div className="max-w-4xl w-full h-full flex flex-col justify-between items-center bg-cover bg-center" style={{backgroundImage: `url(${item.img})`}}>
                             <p></p>
                             <h1 className="text-lg font-bold text-white text-center justify-center items-center mt-70">{item.name}</h1>
+                            <div className="absolute bottom-0 bg-graident-to-t from/black-70 via/black-20 to-transparent" />
                             <p className=" text-sm text-[#ccad64]">VIEW MENU</p>
                             
                         </div>

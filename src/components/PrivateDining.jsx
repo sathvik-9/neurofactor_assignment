@@ -1,6 +1,6 @@
 export default function PrivateDining(){
     return (
-      <div className="w-full flex flex-col gap-4 bg-black text-white min-h-screen">
+      <div className="w-full flex flex-col gap-4 bg-black text-white mt-10 h-auto mb-20">
         <div className="relative group bg-grey-800">
           <img
             src="/assets/private_dining.png"
